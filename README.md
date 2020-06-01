@@ -1,6 +1,6 @@
-# Creating a class (CreateView) based view  using Django server on GCP
+# Creating a class based (ListView and DetailView) view  using Django server on GCP
 
-### This example simply show the use of CreateView class
+### This example simply show the use of ListView and DetailView class
 
 ## 1) Clone the ansible script on your local machine
 
@@ -25,12 +25,12 @@ virtualenv myproject
 
 ## 6) Clone the django scripts
 
- git clone https://github.com/amardrylab/django_createview.git
+ git clone https://github.com/amardrylab/django_listdetailview.git
 
 
 ## 7) Copy the required files in proper location
 
-mv django_createview/*  myproject
+mv django_listdetailview/*  myproject
 
 ## 8) Enter your virtual environment
 
